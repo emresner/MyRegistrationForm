@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    
+    <!-- Left Sticky Ad -->
+<div class="sticky-ad left" id="left-ad">
+    <button class="close-btn" onclick="closeAd('left-ad')">X</button>
+    <a href="https://www.adidas.com.tr/tr" target="_blank">
+        <img src="https://images.pexels.com/photos/321503/pexels-photo-321503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Left Ad">
+    </a>
+</div>
+
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<div class="form-container">
+    <form action="index2.html">
+
+<div class="form-container">
+    <h2>Registration Form</h2>
+    
+        
+   
+        <!-- First and Last Name Fields -->
+<div class="form-group name-group">
+    <div class="name-field">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+    </div>
+
+    <div class="name-field">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+    </div>
+</div>
+
+        <!-- Company Field -->
+        <div class="form-group">
+            <label for="company">Company:</label>
+            <select id="company" name="company" required>
+                <option value="" disabled selected>Loading...</option>
+            </select>
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Phone Number Fields -->
+        <div class="form-group phone-group">
+            <div>
+                <label for="area-code">Area Code:</label>
+                <select id="area-code" name="area-code" required>
+                    <option value="" disabled selected>Choose Area Code</option>
+                    <option value="201">+90</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number" name="phone-number" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled selected>Loading...</option>
+            </select>
+        </div>
+
+        <!-- Are you a beginner? Question -->
+<div class="form-group">
+    <label>Are you a beginner?</label>
+    <div class="radio-buttons">
+        <label for="beginner-yes">
+            <input type="radio" id="beginner-yes" name="beginner" value="yes" required>
+            Yes
+        </label>
+        <label for="beginner-no">
+            <input type="radio" id="beginner-no" name="beginner" value="no" required>
+            No
+        </label>
+    </div>
+</div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</div>
+
+<!-- Right Sticky Ad -->
+<div class="sticky-ad right" id="right-ad">
+    <button class="close-btn" onclick="closeAd('right-ad')">X</button>
+    <a href="https://www.adidas.com.tr/tr" target="_blank">
+        <img src="https://images.pexels.com/photos/321503/pexels-photo-321503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Right Ad">
+    </a>
+</div>
+
+</body>
+
+</html> 

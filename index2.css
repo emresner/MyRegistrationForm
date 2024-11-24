@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 300px;  /* Adds space below the h2 */
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 300px;     /* Adds space above each paragraph */
+    margin-bottom: 300px;  /* Adds space below each paragraph */
+}
+
